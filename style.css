@@ -80,7 +80,7 @@ text-align: center !important
 .close:focus {
   color: #000;
   text-decoration: none;
-  cursor: pointer;
+  cursor: pointer;;
 }
 p{
 color: black;
@@ -92,6 +92,9 @@ width: 50%;
 .search-blue{
 font-weight: bolder;
 
+}
+#myBtn:hover{
+  background-color:seashell;
 }
 /* img{
   padding: 0;
