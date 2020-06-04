@@ -6,7 +6,7 @@
     padding: 0px 20px;
     padding-top: 10%;
     padding-bottom: 10%;
-    background:linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('C:\\Users\\mrwig\\Desktop\\project-1\\Images\\brewImage.jpg');
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('brewImage.jpg');
     background-size:cover;
 }
   .container-1 {
