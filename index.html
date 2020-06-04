@@ -4,64 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+     <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
     <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"></script>
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous">
+    </script>
      <script src="project-1.js"></script>
+     <script type="text/javascript" src="js/materialize.min.js"></script>
     <title>Brewery lookup!</title>
 </head>
 <body>
     <div class="box-1">
         <H1>Brewery lookup!</H1>
         <h3>The Website to find a Brewery Near you!</h3>
-  <!-- Trigger/Open The Modal -->
-<button id="myBtn">Be Advised!!!</button>
+        <!-- Trigger/Open The Modal -->
+        <button id="myBtn">Be Advised!!!</button>
 
-<!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>Must be over the age of 21 to drink alcohol</p>
-  </div>
-
-</div>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Must be over the age of 21 to drink alcohol</p>
+            </div>
+        </div>
     </div>
-<div class="container-1">
-    <table id="search-table">
-        <tr>
-            <td>Brewery Search (Type in State)</td> 
-        </tr>
-        <tr>
-            
+    <div class="container-1">
+        <table id="search-table">
+            <tr>
+                <td>Brewery Search (Type in city)</td> 
+            </tr>
+            <tr>
                 <td>
                     <input type="search" name="Brew-s" id="B-search" />
                     <input type="submit"  id="brew-search-button" value="search-cities"   />
                 </td>
-            
-            
-        </tr>
-    
-    </table>
-</div id = "search-results2" >
-<h3>Search Results</h3>
-<H4> <i>"Name-Street Address"</i></H4>
-    <div class="box-2">
-    <!-- results go in here -->
-    <div id = "search-results">
-</div> 
-
-    
-</div>
-
-
-
-
-
-
-
+            </tr>
+        </table>
+        <div id = "search-results2" >
+            <p class="flow-text">
+                <h3 class="flow-text">Search Results</h3>
+                <H4 class="flow-text"> <i>"Name-Street Address"</i></H4>
+                <div class="box-2">
+                    <!-- results go in here -->
+                    <div id = "search-results"></div>
+                </div>
+            </p>
+        <div>
+    </div>
 </body>
 </html>  
