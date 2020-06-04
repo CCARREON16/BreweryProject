@@ -96,6 +96,9 @@ font-weight: bolder;
 #myBtn:hover{
   background-color:seashell;
 }
+#brew-search-button:hover{
+  background-color: seashell;
+}
 /* img{
   padding: 0;
   
